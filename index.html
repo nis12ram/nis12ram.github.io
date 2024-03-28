@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="responsive_style.css">
+
+    <style id="__userStyleHolder">
+
+    </style>
+
+</head>
+
+<body>
+    <!-- <p style=" width: 4vw; background-color: red; text-align: center;">Html </p> -->
+    <div class="__container ">
+
+        <div class="__code_box">
+            <div class="__html_box __box __rounded __top_pad  ">
+                <div class="__inpt_box_lst __right_pad">
+                    <p id="__html_logo" class="__small_rounded  __big_text_font __text_weight">HTML</p>
+                    <!-- <img src="html5-removebg-preview.png" alt="logo" class="__icon_size"> -->
+                    <a id="__html_box_settings" class="__inpt_box_opt __pointer_cursor">
+                        <img src="settings.svg" alt="" class="__invert __btn_size">
+
+                    </a>
+                    <div id="__html_sett_pop_up"
+                        class="__pop_up_window __alt_bg_color  __none_display __rounded __full_pad  ">
+                        <p class="__ultra_text_font ">Settings</p>
+                        <hr width="100% " size="2" color="black">
+                        <div class="__opt_cols ">
+                            <div id="__html_cols1" class="__opt_cols1 __small_full_pad">
+                                <a class="__pointer_cursor" id="__editor_html_cols1">
+                                    <p class="__text_font __text_weight ">Editor</p>
+                                </a>
+                                <a class="__pointer_cursor" id="__internal_html_cols1">
+                                    <p class="__text_font __text_weight ">Internal</p>
+                                </a>
+                            </div>
+                            <div id="__html_cols2" class="__opt_cols2 __small_full_pad">
+                                <div id="__editor_html_cols2" class="__editor_cols2 __none_display">
+                                    <div class="__background __cols2_ele_size">
+                                        <p class="__text_font __inline_display">Background color:</p>
+                                        <input type="color" class="__colorPicker " name="colorPicker" value="#272829">
+                                    </div>
+
+                                    <div class="__text __cols2_ele_size">
+                                        <p class="__text_font __inline_display">Text color:</p>
+                                        <input type="color" class="__colorPicker" name="colorPicker" value="#272829">
+                                    </div>
+
+                                    <div class="__f_size __cols2_ele_size">
+                                        <p class="__text_font __inline_display">Font size(px):</p>
+                                        <input type="number" class="__user_inpt_style  __alt_bg_color">
+                                    </div>
+
+                                    <div class="__f_family __cols2_ele_size">
+                                        <p class="__text_font __inline_display">Font family:</p>
+                                        <input type="text" class="__user_inpt_style  __alt_bg_color">
+                                        <a target="_blank"
+                                            href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-family"
+                                            class="__pointer_cursor __text_font">GET</a>
+
+                                    </div>
+
+                                    <div class="__indent_size __cols2_ele_size">
+                                        <p class="__text_font __inline_display">Indent number:</p>
+                                        <input type="number" class="__user_inpt_style  __alt_bg_color">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div id="__html_popup_close" class=" __popup_close">
+                            <button class="__text_font __text_weight __small_rounded __small_full_pad ">close</button>
+                        </div> <!-- <label for="colorpicker">Color Picker:</label>
+                        <input type="color" id="colorpicker" value="#0000ff"> -->
+                    </div>
+                </div>
+                <form>
+                    <textarea name="__html_input" id="__html_input"
+                        class="__input_box __full_pad __main_bg_color __rounded __big_text_font __main_txt_color"
+                        spellcheck="false"></textarea>
+                </form>
+            </div>
+            <div class="__css_box __box __rounded __top_pad ">
+                <div class="__inpt_box_lst __right_pad">
+                    <!-- <img src="css_img-removebg-preview (1).png" alt=""> -->
+                    <p id="__css_logo" class="__small_rounded  __big_text_font __text_weight">CSS</p>
+                    <a id="__css_box_settings" class="__inpt_box_opt __pointer_cursor">
+                        <img src="settings.svg" alt="" class="__invert __btn_size">
+                    </a>
+                    <div id="__css_sett_pop_up"
+                        class="__pop_up_window __alt_bg_color  __none_display __rounded __full_pad  ">
+                        <p class="__ultra_text_font ">Settings</p>
+                        <hr width="100% " size="2" color="black">
+                        <div class="__opt_cols ">
+                            <div id="__css_cols1" class="__opt_cols1 __small_full_pad">
+                                <a class="__pointer_cursor" id="__editor_css_cols1">
+                                    <p class="__text_font __text_weight ">Editor</p>
+                                </a>
+                                <a class="__pointer_cursor" id="__internal_css_cols1">
+                                    <p class="__text_font __text_weight ">Internal</p>
+                                </a>
+                            </div>
+                            <div id="__css_cols2" class="__opt_cols2 __small_full_pad">
+                                <div id="__editor_css_cols2" class="__editor_cols2  __none_display">
+                                    <div class="__background __cols2_ele_size">
+                                        <p class="__text_font __inline_display">Background color:</p>
+                                        <input type="color" class="__colorPicker " name="colorPicker" value="#272829">
+                                    </div>
+
+                                    <div class="__text __cols2_ele_size">
+                                        <p class="__text_font __inline_display">Text color:</p>
+                                        <input type="color" class="__colorPicker" name="colorPicker" value="#272829">
+                                    </div>
+
+                                    <div class="__f_size __cols2_ele_size">
+                                        <p class="__text_font __inline_display">Font size(px):</p>
+                                        <input type="number" class="__user_inpt_style  __alt_bg_color">
+                                    </div>
+
+                                    <div class="__f_family __cols2_ele_size">
+                                        <p class="__text_font __inline_display">Font family:</p>
+                                        <input type="text" class="__user_inpt_style  __alt_bg_color">
+                                        <a target="_blank"
+                                            href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-family"
+                                            class="__pointer_cursor __text_font">GET</a>
+
+                                    </div>
+
+                                    <div class="__indent_size __cols2_ele_size">
+                                        <p class="__text_font __inline_display">Indent number:</p>
+                                        <input type="number" class="__user_inpt_style  __alt_bg_color">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="__css_popup_close" class=" __popup_close">
+                            <button class="__text_font __text_weight __small_rounded __small_full_pad ">close</button>
+                        </div>
+
+                        <!-- <label for="colorpicker">Color Picker:</label>
+                        <input type="color" id="colorpicker" value="#0000ff"> -->
+                    </div>
+                </div>
+                <form>
+                    <textarea name="__css_input" id="__css_input"
+                        class="__input_box __full_pad __main_bg_color __rounded __big_text_font __main_txt_color"
+                        spellcheck="false"></textarea>
+                </form>
+            </div>
+
+
+
+            <div class="__js_box __box __rounded __top_pad">
+                <div class="__inpt_box_lst __right_pad">
+                    <!-- <img src="css_img-removebg-preview (1).png" alt=""> -->
+                    <p id="__js_logo" class="__small_rounded  __big_text_font __text_weight">JS</p>
+                    <a id="__js_box_settings" class="__inpt_box_opt __pointer_cursor">
+                        <img src="settings.svg" alt="" class="__invert __btn_size">
+                    </a>
+                    <div id="__js_sett_pop_up"
+                        class="__pop_up_window __alt_bg_color  __none_display __rounded __full_pad  ">
+                        <p class="__ultra_text_font ">Settings</p>
+                        <hr width="100% " size="2" color="black">
+                        <div class="__opt_cols ">
+                            <div id="__js_cols1" class="__opt_cols1 __small_full_pad">
+                                <a class="__pointer_cursor" id="__editor_js_cols1">
+                                    <p class="__text_font __text_weight ">Editor</p>
+                                </a>
+                                <a class="__pointer_cursor" id="__internal_js_cols1">
+                                    <p class="__text_font __text_weight ">Internal</p>
+                                </a>
+                            </div>
+                            <div id="__js_cols2" class="__opt_cols2 __small_full_pad">
+                                <div id="__editor_js_cols2" class="__editor_cols2  __none_display">
+                                    <div class="__background __cols2_ele_size">
+                                        <p class="__text_font __inline_display">Background color:</p>
+                                        <input type="color" class="__colorPicker " name="colorPicker" value="#272829">
+                                    </div>
+
+                                    <div class="__text __cols2_ele_size">
+                                        <p class="__text_font __inline_display">Text color:</p>
+                                        <input type="color" class="__colorPicker" name="colorPicker" value="#272829">
+                                    </div>
+
+                                    <div class="__f_size __cols2_ele_size">
+                                        <p class="__text_font __inline_display">Font size(px):</p>
+                                        <input type="number" class="__user_inpt_style  __alt_bg_color">
+                                    </div>
+
+                                    <div class="__f_family __cols2_ele_size">
+                                        <p class="__text_font __inline_display">Font family:</p>
+                                        <input type="text" class="__user_inpt_style  __alt_bg_color">
+                                        <a target="_blank"
+                                            href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-family"
+                                            class="__pointer_cursor __text_font">GET</a>
+
+                                    </div>
+
+                                    <div class="__indent_size __cols2_ele_size">
+                                        <p class="__text_font __inline_display">Indent number:</p>
+                                        <input type="number" class="__user_inpt_style  __alt_bg_color">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="__js_popup_close" class=" __popup_close">
+                            <button class="__text_font __text_weight __small_rounded __small_full_pad ">close</button>
+                        </div>
+
+                        <!-- <label for="colorpicker">Color Picker:</label>
+                        <input type="color" id="colorpicker" value="#0000ff"> -->
+                    </div>
+                </div>
+                <form>
+                    <textarea name="__js_input" id="__js_input"
+                        class="__input_box __full_pad __main_bg_color __rounded __big_text_font __main_txt_color"
+                        spellcheck="false"></textarea>
+                </form>
+            </div>
+
+            <div class="__expand_btn __pointer_cursor">
+                <img src="expand.svg" alt="add" class="__invert __btn_size">
+            </div>
+
+
+
+        </div>
+        <div id="__output_box" class="__body __rounded  __main_bg_color __output_box_pad">
+
+        </div>
+
+
+
+
+        <script src="script.js"></script>
+        <script id="__userJsHolder"></script>
+
+
+</body>
+
+</html>

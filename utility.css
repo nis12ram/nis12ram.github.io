@@ -1,0 +1,153 @@
+.__rounded {
+    border-radius: calc(var(--border_rad)*2);
+}
+
+.__small_rounded {
+    border-radius: calc(var(--border_rad));
+}
+
+.__border_style {
+    border: 2px solid #ccc;
+}
+
+.__main_bg_color {
+    background-color: #272829;
+}
+
+.__alt_bg_color {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.__remove_border {
+    border: 0;
+}
+
+.__top_pad {
+    padding-top: 1vh;
+}
+
+.__bottom_pad {
+    padding-bottom: 1vh;
+}
+
+.__right_pad {
+    padding-right: 0.5vw;
+}
+
+.__full_pad {
+    padding: 10px;
+}
+
+
+.__small_full_pad {
+    padding: 5px;
+}
+
+
+.__icon_size {
+    width:25px;
+    /* height:1vh ; */
+}
+
+
+/* form {
+} */
+
+
+.__input_box {
+    border: none;
+    outline: none;
+    resize: none;
+
+    /* Optional: Disable resizing */
+    /* Optionally, you can remove other default styles like padding, margin, etc. */
+}
+
+.__text_font {
+    /* font-family: "Fira Code", monospace; */
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    font-size: 1rem;
+
+}
+
+.__big_text_font {
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    font-size: 1.5rem;
+
+}
+
+.__ultra_text_font {
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.__text_weight {
+    font-weight: 500;
+}
+
+.__main_txt_color {
+    /* color: #B5C0D0; */
+    color: #888d94;
+    /* color: #f2f2f2; */
+
+
+
+}
+
+.__alt_txt_color {
+    color: #cccccc;
+
+}
+
+.__invert {
+    filter: invert(1);
+}
+
+
+
+.__pointer_cursor {
+    cursor: pointer;
+}
+
+.__none_display {
+    display: none;
+}
+
+.__col_dir_flex {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.__inline_display {
+    display: inline;
+}
+
+.__flex_display {
+    display: flex;
+}
+
+.__center_justify_content {
+    justify-content: center;
+}
+.__output_box_pad{
+    padding: 1vw;
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:focus {
+    outline: none;
+}
