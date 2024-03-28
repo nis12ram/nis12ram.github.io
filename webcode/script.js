@@ -194,14 +194,37 @@ __html_box_settings.addEventListener('click', (e) => {
 
 let __editor_html_cols1 = document.getElementById("__editor_html_cols1");
 let __editor_html_cols2 = document.getElementById("__editor_html_cols2");
+
+
 // console.log(editor_html_cols1)
 __editor_html_cols1.addEventListener('click', (e) => {
     // console.log('editor is clicked')
     // console.log(__editor_html_cols2.classList)
+    // if other setting is on then remove that 
+    __internal_html_cols2.classList.add("__none_display")
+
     __editor_html_cols2.classList.toggle("__none_display")
 
 
 })
+
+// html internal user handling 
+
+
+let __internal_html_cols1 = document.getElementById("__internal_html_cols1");
+let __internal_html_cols2 = document.getElementById("__internal_html_cols2");
+__internal_html_cols1.addEventListener('click', (e) => {
+    // console.log('editor is clicked')
+    // console.log(__editor_html_cols2.classList)
+
+    // if other setting is on then remove that 
+    __editor_html_cols2.classList.add("__none_display")
+
+    __internal_html_cols2.classList.toggle("__none_display")
+
+
+})
+
 
 // setting html background color 
 let __html_background_color_picker = document.querySelector("#__editor_html_cols2 .__background .__colorPicker")
@@ -296,7 +319,26 @@ let __editor_css_cols2 = document.getElementById("__editor_css_cols2");
 __editor_css_cols1.addEventListener('click', (e) => {
     // console.log('editor is clicked')
     // console.log(__editor_css_cols2.classList)
+    __internal_css_cols2.classList.add("__none_display")
+
     __editor_css_cols2.classList.toggle("__none_display")
+
+
+})
+
+// html internal user handling 
+
+
+let __internal_css_cols1 = document.getElementById("__internal_css_cols1");
+let __internal_css_cols2 = document.getElementById("__internal_css_cols2");
+__internal_css_cols1.addEventListener('click', (e) => {
+    // console.log('editor is clicked')
+    // console.log(__editor_html_cols2.classList)
+
+    // if other setting is on then remove that 
+    __editor_css_cols2.classList.add("__none_display")
+
+    __internal_css_cols2.classList.toggle("__none_display")
 
 
 })
@@ -396,7 +438,27 @@ console.log(__editor_js_cols1)
 __editor_js_cols1.addEventListener('click', (e) => {
     // console.log('editor is clicked')
     // console.log(__editor_js_cols2.classList)
+    __internal_js_cols2.classList.add("__none_display")
+
     __editor_js_cols2.classList.toggle("__none_display")
+
+
+})
+
+
+// html internal user handling 
+
+
+let __internal_js_cols1 = document.getElementById("__internal_js_cols1");
+let __internal_js_cols2 = document.getElementById("__internal_js_cols2");
+__internal_js_cols1.addEventListener('click', (e) => {
+    // console.log('editor is clicked')
+    // console.log(__editor_html_cols2.classList)
+
+    // if other setting is on then remove that 
+    __editor_js_cols2.classList.add("__none_display")
+
+    __internal_js_cols2.classList.toggle("__none_display")
 
 
 })
